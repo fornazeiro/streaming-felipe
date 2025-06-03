@@ -35,6 +35,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
+## ANOTHER COMPUTER
+
 IF YOU OPEN THIS PROJECT IN ANOTHER COMPUTER, YOU NEED TO RUN THIS COMMANDS(and put the .env file with the bd api connection(you can take this in neondb.com using github account)):
 Remove-Item -Recurse -Force node_modules
 Remove-Item -Recurse -Force .next
