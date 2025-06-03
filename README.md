@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+IF YOU OPEN THIS PROJECT IN ANOTHER COMPUTER, YOU NEED TO RUN THIS COMMANDS(and put the .env file with the bd api connection(you can take this in neondb.com using github account)):
+Remove-Item -Recurse -Force node_modules
+Remove-Item -Recurse -Force .next
+Remove-Item -Recurse -Force src/generated/prisma
+npx prisma generate
+npm run dev
+
